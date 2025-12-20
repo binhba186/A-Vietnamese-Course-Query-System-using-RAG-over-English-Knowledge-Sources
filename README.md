@@ -19,7 +19,7 @@ From a practical perspective, the system functions as a reliable 24/7 virtual ac
 Beyond the scope of a single academic project, this research contributes a transferable methodological framework for building Knowledge Graph–enhanced RAG systems in low-resource languages such as Vietnamese. It demonstrates that combining structured domain knowledge with large language models is essential for handling complex internal data sources that demand absolute precision. The findings suggest strong potential for extending this architecture to other specialized domains, including healthcare, legal systems, and enterprise process management, where the balance between natural language interaction and semantic correctness is both challenging and mission-critical.
 ## The Core Challenge: 
 
-### 1.Balancing Natural Interaction and Data Accuracy
+### 1. Balancing Natural Interaction and Data Accuracy
 
 The primary challenge in deploying question-answering systems in the Vietnamese context lies in maintaining a balance between conversational friendliness and absolute data accuracy. While users expect natural and flexible interactions, the underlying system must strictly adhere to verified institutional data. This tension becomes particularly critical in high-stakes domains such as academic advising, where even minor inaccuracies can lead to serious consequences.
 
