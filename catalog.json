@@ -1,0 +1,788 @@
+[
+  {
+    "ma_mon_hoc": "BAA00101",
+    "tieng_viet": "Triết học Mác-Lênin",
+    "tieng_anh": "Marxist-Leninist Philosophy"
+  },
+  {
+    "ma_mon_hoc": "BAA00102",
+    "tieng_viet": "Kinh tế chính trị Mác - Lênin",
+    "tieng_anh": "Marxist-Leninist Political Economy"
+  },
+  {
+    "ma_mon_hoc": "BAA00103",
+    "tieng_viet": "Chủ nghĩa xã hội khoa học",
+    "tieng_anh": "Scientific Socialism"
+  },
+  {
+    "ma_mon_hoc": "BAA00104",
+    "tieng_viet": "Lịch sử Đảng Cộng sản Việt Nam",
+    "tieng_anh": "History of Vietnamese Communist Party"
+  },
+  {
+    "ma_mon_hoc": "BAA00003",
+    "tieng_viet": "Tư tưởng Hồ Chí Minh",
+    "tieng_anh": "Ho Chi Minh’s Ideology"
+  },
+  {
+    "ma_mon_hoc": "BAA00004",
+    "tieng_viet": "Pháp luật đại cương",
+    "tieng_anh": "General Law"
+  },
+  {
+    "ma_mon_hoc": "BAA00005",
+    "tieng_viet": "Kinh tế đại cương",
+    "tieng_anh": "Basic Economics"
+  },
+  {
+    "ma_mon_hoc": "BAA00006",
+    "tieng_viet": "Tâm lý đại cương",
+    "tieng_anh": "Psychology"
+  },
+  {
+    "ma_mon_hoc": "BAA00008",
+    "tieng_viet": "Kỹ năng làm việc nhóm và học tập",
+    "tieng_anh": "Teamwork and Learning Skills"
+  },
+  {
+    "ma_mon_hoc": "BAA00011",
+    "tieng_viet": "Anh văn 1",
+    "tieng_anh": "English 1"
+  },
+  {
+    "ma_mon_hoc": "BAA00012",
+    "tieng_viet": "Anh văn 2",
+    "tieng_anh": "English 2"
+  },
+  {
+    "ma_mon_hoc": "BAA00013",
+    "tieng_viet": "Anh văn 3",
+    "tieng_anh": "English 3"
+  },
+  {
+    "ma_mon_hoc": "BAA00014",
+    "tieng_viet": "Anh văn 4",
+    "tieng_anh": "English 4"
+  },
+  {
+    "ma_mon_hoc": "MTH00010",
+    "tieng_viet": "Giải tích 1A",
+    "tieng_anh": "Analysis 1A"
+  },
+  {
+    "ma_mon_hoc": "MTH00011",
+    "tieng_viet": "Vi tích phân 1A",
+    "tieng_anh": "Calculus 1A"
+  },
+  {
+    "ma_mon_hoc": "MTH00012",
+    "tieng_viet": "Giải tích 2A",
+    "tieng_anh": "Analysis 2A"
+  },
+  {
+    "ma_mon_hoc": "MTH00013",
+    "tieng_viet": "Vi tích phân 2A",
+    "tieng_anh": "Calculus 2A"
+  },
+  {
+    "ma_mon_hoc": "MTH00014",
+    "tieng_viet": "Giải tích 3A",
+    "tieng_anh": "Analysis 3A"
+  },
+  {
+    "ma_mon_hoc": "MTH00015",
+    "tieng_viet": "Giải tích 4A",
+    "tieng_anh": "Ordinary Differential Equations"
+  },
+  {
+    "ma_mon_hoc": "MTH00030",
+    "tieng_viet": "Đại số tuyến tính",
+    "tieng_anh": "Linear Algebra"
+  },
+  {
+    "ma_mon_hoc": "MTH00031",
+    "tieng_viet": "Đại số đại cương",
+    "tieng_anh": "Abstract Algebra"
+  },
+  {
+    "ma_mon_hoc": "MTH00055",
+    "tieng_viet": "Cơ sở lập trình",
+    "tieng_anh": "Introduction to Computer Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH00083",
+    "tieng_viet": "Thực hành đại số tuyến tính",
+    "tieng_anh": "Linear Algebra Practice"
+  },
+  {
+    "ma_mon_hoc": "MTH00084",
+    "tieng_viet": "Thực hành đại số đại cương",
+    "tieng_anh": "Abstract Algebra Practice"
+  },
+  {
+    "ma_mon_hoc": "MTH00087",
+    "tieng_viet": "Thực hành phần mềm tính toán",
+    "tieng_anh": "Computational Software Laboratory"
+  },
+  {
+    "ma_mon_hoc": "ENV00001",
+    "tieng_viet": "Môi trường đại cương",
+    "tieng_anh": "Environmental Studies"
+  },
+  {
+    "ma_mon_hoc": "ENV00003",
+    "tieng_viet": "Con người và môi trường",
+    "tieng_anh": "Human and Environment"
+  },
+  {
+    "ma_mon_hoc": "GEO00002",
+    "tieng_viet": "Khoa học trái đất",
+    "tieng_anh": "Earth science"
+  },
+  {
+    "ma_mon_hoc": "CHE00001",
+    "tieng_viet": "Hóa đại cương 1",
+    "tieng_anh": "General Chemistry 1"
+  },
+  {
+    "ma_mon_hoc": "CHE00002",
+    "tieng_viet": "Hóa đại cương 2",
+    "tieng_anh": "General Chemistry 2"
+  },
+  {
+    "ma_mon_hoc": "CHE00081",
+    "tieng_viet": "Thực tập hóa đại cương 1",
+    "tieng_anh": "General Chemistry Laboratory 1"
+  },
+  {
+    "ma_mon_hoc": "CHE00082",
+    "tieng_viet": "Thực tập hóa đại cương 2",
+    "tieng_anh": "General Chemistry Laboratory 2"
+  },
+  {
+    "ma_mon_hoc": "BIO00001",
+    "tieng_viet": "Sinh đại cương 1",
+    "tieng_anh": "General Biology I"
+  },
+  {
+    "ma_mon_hoc": "BIO00002",
+    "tieng_viet": "Sinh đại cương 2",
+    "tieng_anh": "General Biology II"
+  },
+  {
+    "ma_mon_hoc": "BIO00081",
+    "tieng_viet": "Thực tập sinh đại cương 1",
+    "tieng_anh": "Labwork on General Biology I"
+  },
+  {
+    "ma_mon_hoc": "BIO00082",
+    "tieng_viet": "Thực tập sinh đại cương 2",
+    "tieng_anh": "Labwork on General Biology II"
+  },
+  {
+    "ma_mon_hoc": "PHY00001",
+    "tieng_viet": "Vật lý đại cương 1",
+    "tieng_anh": "General Physics 1"
+  },
+  {
+    "ma_mon_hoc": "PHY00002",
+    "tieng_viet": "Vật lý đại cương 2",
+    "tieng_anh": "General Physics 2"
+  },
+  {
+    "ma_mon_hoc": "PHY00081",
+    "tieng_viet": "Thực hành vật lý đại cương",
+    "tieng_anh": "General Physics Lab"
+  },
+  {
+    "ma_mon_hoc": "CSC00003",
+    "tieng_viet": "Tin học cơ sở",
+    "tieng_anh": "Introduction to Informatics"
+  },
+  {
+    "ma_mon_hoc": "CSC00004",
+    "tieng_viet": "Nhập môn công nghệ thông tin",
+    "tieng_anh": "Introduction to Information Technology"
+  },
+  {
+    "ma_mon_hoc": "MTH10404",
+    "tieng_viet": "Lý thuyết thống kê",
+    "tieng_anh": "Mathematical Statistics"
+  },
+  {
+    "ma_mon_hoc": "MTH10405",
+    "tieng_viet": "Cấu trúc dữ liệu và Giải thuật",
+    "tieng_anh": "Data Structures and Algorithms"
+  },
+  {
+    "ma_mon_hoc": "MTH10406",
+    "tieng_viet": "Toán rời rạc",
+    "tieng_anh": "Discrete Mathematics"
+  },
+  {
+    "ma_mon_hoc": "MTH10407",
+    "tieng_viet": "Lập trình hướng đối tượng",
+    "tieng_anh": "Object-Oriented Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH10401",
+    "tieng_viet": "Lý thuyết độ đo và xác suất",
+    "tieng_anh": "Measure Theory and Probability"
+  },
+  {
+    "ma_mon_hoc": "MTH10402",
+    "tieng_viet": "Đại số 2A",
+    "tieng_anh": "Algebra 2A"
+  },
+  {
+    "ma_mon_hoc": "MTH10403",
+    "tieng_viet": "Giải tích hàm",
+    "tieng_anh": "Functional Analysis"
+  },
+  {
+    "ma_mon_hoc": "MTH10312",
+    "tieng_viet": "Cơ sở dữ liệu",
+    "tieng_anh": "Introduction to Database Systems"
+  },
+  {
+    "ma_mon_hoc": "MTH10318",
+    "tieng_viet": "Nhập môn trí tuệ nhân tạo",
+    "tieng_anh": "Introduction to Artificial Intelligence"
+  },
+  {
+    "ma_mon_hoc": "MTH10353",
+    "tieng_viet": "Nhập môn máy học",
+    "tieng_anh": "Introduction to Machine Learning"
+  },
+  {
+    "ma_mon_hoc": "MTH10513",
+    "tieng_viet": "Xử lý số liệu thống kê",
+    "tieng_anh": "Analysis of Statistical Data"
+  },
+  {
+    "ma_mon_hoc": "MTH10358",
+    "tieng_viet": "Khai thác dữ liệu",
+    "tieng_anh": "Data Mining"
+  },
+  {
+    "ma_mon_hoc": "MTH10605",
+    "tieng_viet": "Python cho khoa học dữ liệu",
+    "tieng_anh": "Python for Data Science"
+  },
+  {
+    "ma_mon_hoc": "MTH10323",
+    "tieng_viet": "Xử lý đa chiều",
+    "tieng_anh": "Multidimensional Signal Processing"
+  },
+  {
+    "ma_mon_hoc": "MTH10325",
+    "tieng_viet": "Phân tích thuật toán",
+    "tieng_anh": "Algorithm Analysis"
+  },
+  {
+    "ma_mon_hoc": "MTH10344",
+    "tieng_viet": "Hệ quản trị cơ sở dữ liệu",
+    "tieng_anh": "Database Management System"
+  },
+  {
+    "ma_mon_hoc": "MTH10354",
+    "tieng_viet": "Máy học nâng cao",
+    "tieng_anh": "Advance Machine Learning"
+  },
+  {
+    "ma_mon_hoc": "MTH10619",
+    "tieng_viet": "Thống kê nhiều chiều",
+    "tieng_anh": "Multivariate Statistics"
+  },
+  {
+    "ma_mon_hoc": "MTH10450",
+    "tieng_viet": "Thuật toán tối ưu",
+    "tieng_anh": "Optimization Algorithms"
+  },
+  {
+    "ma_mon_hoc": "MTH10620",
+    "tieng_viet": "Seminar Khoa học dữ liệu",
+    "tieng_anh": "Seminar on Data Science"
+  },
+  {
+    "ma_mon_hoc": "MTH10520",
+    "tieng_viet": "Seminar cơ học",
+    "tieng_anh": "Mechanics Seminar"
+  },
+  {
+    "ma_mon_hoc": "MTH10608",
+    "tieng_viet": "Trực quan hoá dữ liệu",
+    "tieng_anh": "Data Visualization"
+  },
+  {
+    "ma_mon_hoc": "MTH10607",
+    "tieng_viet": "Phương pháp số cho khoa học dữ liệu",
+    "tieng_anh": "Numerical Methods for Data Science"
+  },
+  {
+    "ma_mon_hoc": "MTH10317",
+    "tieng_viet": "Phân tích xử lý ảnh",
+    "tieng_anh": "Image Processing and Analysis"
+  },
+  {
+    "ma_mon_hoc": "MTH10319",
+    "tieng_viet": "Lý thuyêt mã hóa thông tin",
+    "tieng_anh": "Introduction to Cryptography"
+  },
+  {
+    "ma_mon_hoc": "MTH10320",
+    "tieng_viet": "Xử lý tín hiệu số",
+    "tieng_anh": "Digital Signal Processing"
+  },
+  {
+    "ma_mon_hoc": "MTH10321",
+    "tieng_viet": "Tính toán hiệu năng",
+    "tieng_anh": "High Performance Computing"
+  },
+  {
+    "ma_mon_hoc": "MTH10324",
+    "tieng_viet": "Số học và thuật toán",
+    "tieng_anh": "Arithmetic and Algorithms"
+  },
+  {
+    "ma_mon_hoc": "MTH10346",
+    "tieng_viet": "Seminar phương pháp toán",
+    "tieng_anh": "Seminar on Computer Science"
+  },
+  {
+    "ma_mon_hoc": "MTH10347",
+    "tieng_viet": "Lý thuyết thông tin",
+    "tieng_anh": "Information Theory"
+  },
+  {
+    "ma_mon_hoc": "MTH10355",
+    "tieng_viet": "Tính toán di động",
+    "tieng_anh": "Mobile Computing"
+  },
+  {
+    "ma_mon_hoc": "MTH10356",
+    "tieng_viet": "Trí tuệ nhân tạo nâng cao",
+    "tieng_anh": "Advanced Artificial Intelligence"
+  },
+  {
+    "ma_mon_hoc": "MTH10308",
+    "tieng_viet": "Phát triển phần mềm hướng đối tượng",
+    "tieng_anh": "Object-Oriented Software Development"
+  },
+  {
+    "ma_mon_hoc": "MTH10309",
+    "tieng_viet": "Quản trị hệ thống mạng",
+    "tieng_anh": "System and Network Administration"
+  },
+  {
+    "ma_mon_hoc": "MTH10310",
+    "tieng_viet": "Lập trình .NET",
+    "tieng_anh": ".NET Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH10311",
+    "tieng_viet": "Mạng máy tính",
+    "tieng_anh": "Computer Networks"
+  },
+  {
+    "ma_mon_hoc": "MTH10313",
+    "tieng_viet": "Hệ điều hành UNIX",
+    "tieng_anh": "UNIX Operating System"
+  },
+  {
+    "ma_mon_hoc": "MTH10314",
+    "tieng_viet": "Quản lý đề án phần mềm",
+    "tieng_anh": "Software Project Management"
+  },
+  {
+    "ma_mon_hoc": "MTH10315",
+    "tieng_viet": "Phân tích và thiết kế hệ thống thông tin",
+    "tieng_anh": "Analysis and Design of Information Systems"
+  },
+  {
+    "ma_mon_hoc": "MTH10316",
+    "tieng_viet": "Lập trình Java",
+    "tieng_anh": "Java Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH10326",
+    "tieng_viet": "Seminar Toán tin ứng dụng",
+    "tieng_anh": "Seminar on Applied Mathematics and Computer Science"
+  },
+  {
+    "ma_mon_hoc": "MTH10611",
+    "tieng_viet": "Lập trình Symbolic cho các bài toán ứng dụng",
+    "tieng_anh": "Symbolic Programming for Applied Problems"
+  },
+  {
+    "ma_mon_hoc": "MTH10331",
+    "tieng_viet": "Biến hình và xử lý ảnh",
+    "tieng_anh": "Image Transformation and Processing"
+  },
+  {
+    "ma_mon_hoc": "MTH10333",
+    "tieng_viet": "Thiết kế Web",
+    "tieng_anh": "Design and Build Web Applications"
+  },
+  {
+    "ma_mon_hoc": "MTH10334",
+    "tieng_viet": "Lập trình Web với J2EE",
+    "tieng_anh": "Web Programming with J2EE"
+  },
+  {
+    "ma_mon_hoc": "MTH10337",
+    "tieng_viet": "Lập trình Web với PHP",
+    "tieng_anh": "Web Programming with PHP"
+  },
+  {
+    "ma_mon_hoc": "MTH10340",
+    "tieng_viet": "Nhận dạng và phân tích mẫu",
+    "tieng_anh": "Pattern Recognition and Analysis"
+  },
+  {
+    "ma_mon_hoc": "MTH10541",
+    "tieng_viet": "Lý thuyết trò chơi",
+    "tieng_anh": "Game Theory"
+  },
+  {
+    "ma_mon_hoc": "MTH10545",
+    "tieng_viet": "Điều khiển tối ưu",
+    "tieng_anh": "Optimal Control"
+  },
+  {
+    "ma_mon_hoc": "MTH10553",
+    "tieng_viet": "Tối ưu đa mục tiêu",
+    "tieng_anh": "Multi-objective Optimization"
+  },
+  {
+    "ma_mon_hoc": "MTH10549",
+    "tieng_viet": "Thực tập đồ án thực tế",
+    "tieng_anh": "Internship"
+  },
+  {
+    "ma_mon_hoc": "MTH10617",
+    "tieng_viet": "Tổng quan toán - tin học và các chuyên ngành",
+    "tieng_anh": "Surveys of Mathematics, Computer Science, and specializations."
+  },
+  {
+    "ma_mon_hoc": "MTH10595",
+    "tieng_viet": "Khoá luận tốt nghiệp",
+    "tieng_anh": "Graduation Thesis"
+  },
+  {
+    "ma_mon_hoc": "MTH10410",
+    "tieng_viet": "Giải tích số 1",
+    "tieng_anh": "Numerical Analysis 1"
+  },
+  {
+    "ma_mon_hoc": "MTH10413",
+    "tieng_viet": "Phương trình toán lý",
+    "tieng_anh": "Equations of Mathematical Physics"
+  },
+  {
+    "ma_mon_hoc": "MTH10427",
+    "tieng_viet": "Cơ học lý thuyết",
+    "tieng_anh": "Theoretical mechanics"
+  },
+  {
+    "ma_mon_hoc": "MTH10428",
+    "tieng_viet": "Cơ học môi trường liên tục",
+    "tieng_anh": "Continuum mechanics"
+  },
+  {
+    "ma_mon_hoc": "MTH10429",
+    "tieng_viet": "Phương pháp phần tử hữu hạn",
+    "tieng_anh": "Finite Element Method"
+  },
+  {
+    "ma_mon_hoc": "MTH10412",
+    "tieng_viet": "Hàm biến phức",
+    "tieng_anh": "Complex Variable Functions"
+  },
+  {
+    "ma_mon_hoc": "MTH10434",
+    "tieng_viet": "Cơ học vật rắn biến dạng",
+    "tieng_anh": "Solid Mechanics"
+  },
+  {
+    "ma_mon_hoc": "MTH10435",
+    "tieng_viet": "Cơ học chất lỏng",
+    "tieng_anh": "Fluid mechanics"
+  },
+  {
+    "ma_mon_hoc": "MTH10101",
+    "tieng_viet": "Tâm lý học sư phạm",
+    "tieng_anh": "Pedagogical Psychology"
+  },
+  {
+    "ma_mon_hoc": "MTH10102",
+    "tieng_viet": "Phương pháp dạy học tối ưu",
+    "tieng_anh": "Optimal Teaching and Learning Methods"
+  },
+  {
+    "ma_mon_hoc": "MTH10104",
+    "tieng_viet": "Giáo dục học",
+    "tieng_anh": "General Education"
+  },
+  {
+    "ma_mon_hoc": "MTH10105",
+    "tieng_viet": "Lý luận dạy học",
+    "tieng_anh": "Didactics of Teaching"
+  },
+  {
+    "ma_mon_hoc": "MTH10106",
+    "tieng_viet": "Số học và logic toán học",
+    "tieng_anh": "Elementary Number Theory and Mathematical Logic"
+  },
+  {
+    "ma_mon_hoc": "MTH10110",
+    "tieng_viet": "Phương pháp giảng dạy toán 1",
+    "tieng_anh": "Methods of Teaching Mathematics 1"
+  },
+  {
+    "ma_mon_hoc": "MTH10111",
+    "tieng_viet": "Phương pháp giảng dạy toán 2",
+    "tieng_anh": "Methods of Teaching Mathematics 2"
+  },
+  {
+    "ma_mon_hoc": "MTH10112",
+    "tieng_viet": "Thực tập sư phạm toán",
+    "tieng_anh": "Pedagogical Practice"
+  },
+  {
+    "ma_mon_hoc": "MTH10201",
+    "tieng_viet": "Toán tài chính căn bản",
+    "tieng_anh": "Elementary Financial Mathematics"
+  },
+  {
+    "ma_mon_hoc": "MTH10202",
+    "tieng_viet": "Dự báo",
+    "tieng_anh": "Forecasting"
+  },
+  {
+    "ma_mon_hoc": "MTH10203",
+    "tieng_viet": "Mô hình toán tài chính",
+    "tieng_anh": "Mathematical Finance Models"
+  },
+  {
+    "ma_mon_hoc": "MTH10204",
+    "tieng_viet": "Lý thuyết tài chính tiền tệ",
+    "tieng_anh": "Financial and Monetary Theory"
+  },
+  {
+    "ma_mon_hoc": "MTH10209",
+    "tieng_viet": "Toán tài chính nâng cao",
+    "tieng_anh": "Advanced Financial Mathematics"
+  },
+  {
+    "ma_mon_hoc": "MTH10446",
+    "tieng_viet": "Vận trù học",
+    "tieng_anh": "Operations Research"
+  },
+  {
+    "ma_mon_hoc": "MTH10447",
+    "tieng_viet": "Lý thuyết quy hoạch phi tuyến",
+    "tieng_anh": "Nonlinear Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH10615",
+    "tieng_viet": "Mô hình tối ưu trong kinh tế",
+    "tieng_anh": "Optimization Models in Economics"
+  },
+  {
+    "ma_mon_hoc": "MTH10449",
+    "tieng_viet": "Quy hoạch tuyến tính",
+    "tieng_anh": "Linear Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH10543",
+    "tieng_viet": "Cơ sở giải tích lồi và quy hoạch lồi",
+    "tieng_anh": "Introduction to Convex Analysis and Convex Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH00003",
+    "tieng_viet": "Vi tích phân 1B",
+    "tieng_anh": "Calculus 1B"
+  },
+  {
+    "ma_mon_hoc": "MTH00081",
+    "tieng_viet": "Thực hành vi tích phân 1B",
+    "tieng_anh": "Calculus 1B Practice"
+  },
+  {
+    "ma_mon_hoc": "MTH00004",
+    "tieng_viet": "Vi tích phân 2B",
+    "tieng_anh": "Calculus 2B"
+  },
+  {
+    "ma_mon_hoc": "MTH00082",
+    "tieng_viet": "Thực hành vi tích phân 2B",
+    "tieng_anh": "Calculus 2B Practice"
+  },
+  {
+    "ma_mon_hoc": "MTH00041",
+    "tieng_viet": "Toán rời rạc",
+    "tieng_anh": "Discrete Mathematics"
+  },
+  {
+    "ma_mon_hoc": "MTH00086",
+    "tieng_viet": "Thực hành toán rời rạc",
+    "tieng_anh": "Discrete Mathematics Practice"
+  },
+  {
+    "ma_mon_hoc": "MTH00050",
+    "tieng_viet": "Toán học tổ hợp",
+    "tieng_anh": "Combinatorics"
+  },
+  {
+    "ma_mon_hoc": "MTH10171",
+    "tieng_viet": "Nhập môn khoa học dữ liệu",
+    "tieng_anh": "Introduction to Data Science"
+  },
+  {
+    "ma_mon_hoc": "MTH10624",
+    "tieng_viet": "Phân tích mạng xã hội",
+    "tieng_anh": "Social Network Analysis"
+  },
+  {
+    "ma_mon_hoc": "MTH10606",
+    "tieng_viet": "Xử lý dữ liệu lớn",
+    "tieng_anh": "Introduction to Big Data"
+  },
+  {
+    "ma_mon_hoc": "MTH10352",
+    "tieng_viet": "Tính toán song song",
+    "tieng_anh": "Parallel Programming"
+  },
+  {
+    "ma_mon_hoc": "MTH10622",
+    "tieng_viet": "Học sâu cho khoa học dữ liệu",
+    "tieng_anh": "Deep Learning for Data Science"
+  },
+  {
+    "ma_mon_hoc": "MTH10623",
+    "tieng_viet": "Hệ thống tư vấn",
+    "tieng_anh": "Recommender System"
+  },
+  {
+    "ma_mon_hoc": "MTH10322",
+    "tieng_viet": "Nhận dạng mẫu",
+    "tieng_anh": "Pattern Recognition"
+  },
+  {
+    "ma_mon_hoc": "MTH10359",
+    "tieng_viet": "Xử lý ngôn ngữ tự nhiên",
+    "tieng_anh": "Natural Language Processing"
+  },
+  {
+    "ma_mon_hoc": "MTH10597",
+    "tieng_viet": "Đồ án tốt nghiệp",
+    "tieng_anh": "Graduation Project"
+  },
+  {
+    "ma_mon_hoc": "MTH10626",
+    "tieng_viet": "Kỹ năng mềm",
+    "tieng_anh": "Soft Skills"
+  },
+  {
+    "ma_mon_hoc": "MTH10627",
+    "tieng_viet": "Khởi nghiệp",
+    "tieng_anh": "Entrepreneurship"
+
+  },
+  {
+    "ma_mon_hoc": "MTH10332",
+    "tieng_viet": "Kiểm thử phần mềm",
+    "tieng_anh": "Software Testing"
+  },
+  {
+    "ma_mon_hoc": "MTH10336",
+    "tieng_viet": "Kiểm thử phần mềm 2",
+    "tieng_anh": "Software Testing 2"
+  },
+  {
+    "ma_mon_hoc": "MTH10126",
+    "tieng_viet": "Seminar sư phạm",
+    "tieng_anh": "Pedagogy Seminar"
+  },
+  {
+    "ma_mon_hoc": "MTH10119",
+    "tieng_viet": "Toán bằng tiếng Anh 1",
+    "tieng_anh": "Teaching Mathematics in English 1"
+  },
+  {
+    "ma_mon_hoc": "MTH10120",
+    "tieng_viet": "Toán bằng tiếng Anh 2",
+    "tieng_anh": "Teaching Mathematics in English 2"
+  },
+  {
+    "ma_mon_hoc": "MTH10121",
+    "tieng_viet": "Đại số sơ cấp",
+    "tieng_anh": "Elementary Algebra"
+  },
+  {
+    "ma_mon_hoc": "MTH10122",
+    "tieng_viet": "Hình học sơ cấp",
+    "tieng_anh": "Elementary Geometry"
+  },
+  {
+    "ma_mon_hoc": "MTH10123",
+    "tieng_viet": "Ứng dụng toán cao cấp để giải toán sơ cấp",
+    "tieng_anh": "Application of Advanced Mathematical Methods in Solving Complex High School's Mathematics Problem"
+  },
+  {
+    "ma_mon_hoc": "MTH10124",
+    "tieng_viet": "Tổ chức và quản lý lớp học",
+    "tieng_anh": "Classroom Management and Organization"
+  },
+  {
+    "ma_mon_hoc": "MTH10125",
+    "tieng_viet": "Kỹ thuật đánh giá lớp học",
+    "tieng_anh": "Classroom Assessment Techniques"
+  },
+  {
+    "ma_mon_hoc": "MTH10214",
+    "tieng_viet": "Vi mô định lượng",
+    "tieng_anh": "Quantitative Microeconomics"
+  },
+  {
+    "ma_mon_hoc": "MTH10217",
+    "tieng_viet": "Tài chính doanh nghiệp",
+    "tieng_anh": "Corporate finance"
+  },
+  {
+    "ma_mon_hoc": "MTH10219",
+    "tieng_viet": "Phân tích tài chính",
+    "tieng_anh": "Financial Analysis"
+  },
+  {
+    "ma_mon_hoc": "MTH10220",
+    "tieng_viet": "Toán bảo hiểm cơ bản",
+    "tieng_anh": "Basic Actuarial Mathematics"
+  },
+  {
+    "ma_mon_hoc": "MTH10221",
+    "tieng_viet": "Toán bảo hiểm nâng cao",
+    "tieng_anh": "Advanced Actuarial Mathematics"
+  },
+  {
+    "ma_mon_hoc": "MTH10616",
+    "tieng_viet": "Seminar tối ưu",
+    "tieng_anh": "Seminar on Optimization"
+  },
+  {
+    "ma_mon_hoc": "MTH10103",
+    "tieng_viet": "Chất lượng và quản lý chất lượng",
+    "tieng_anh": "Quality and Quality Management"
+  },
+  {
+    "ma_mon_hoc": "MTH00040",
+    "tieng_viet": "Xác suất thống kê",
+    "tieng_anh": "Probability and Statistics"
+  },
+  {
+    "ma_mon_hoc": "MTH00085",
+    "tieng_viet": "Thực hành xác suất thống kê",
+    "tieng_anh": "Probability and Statistics Practice"
+  }
+]
