@@ -1,5 +1,11 @@
 # A-Vietnamese-Course-Query-System-using-RAG-over-English-Knowledge-Sources
 
+## Input Data Structure Description
+
+Each academic course in the dataset is represented as a structured record consisting of a unique course identifier and a comprehensive textual description. The course identifier (e.g., GEO00002) serves as the primary key and ensures unambiguous reference to the corresponding academic module. The accompanying textual field aggregates all relevant academic information into a single normalized document, including course type (elective or compulsory), semester scheduling, faculty affiliation, credit value, teaching methods, assessment structure, and prerequisite requirements.
+
+Beyond administrative metadata, the textual description encapsulates detailed pedagogical content such as course objectives, expected learning outcomes, key thematic topics, and recommended learning materials. It also includes explicit evaluation criteria, such as attendance requirements, grading thresholds, and examination weightings. This unified representation enables downstream natural language processing models to access both semantic content and institutional constraints within a single retrieval unit, facilitating accurate query matching and response generation in academic question-answering systems.
+
 ## Core Technical Contribution: Bridging Natural Queries and Structured Academic Data
 
 The core contribution of this project extends beyond the successful development of a question-answering application. More importantly, it operationalizes and optimizes a Vietnamese natural language processing pipeline tailored for internal academic knowledge retrieval. The research addresses the critical “semantic misalignment” between students’ diverse, informal natural language queries and the rigid, standardized structure of academic regulations and course data. By introducing a hybrid architecture that integrates Retrieval-Augmented Generation (RAG) with HippoRAG, the system effectively preserves relational context during retrieval, enabling accurate normalization of course entities and academic concepts. This design significantly mitigates hallucination, which is a critical requirement for high-stakes academic advisory systems.
