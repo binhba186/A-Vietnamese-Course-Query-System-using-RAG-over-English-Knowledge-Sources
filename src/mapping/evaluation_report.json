@@ -1,0 +1,717 @@
+{
+  "summary": {
+    "total_pairs": 101,
+    "retrieved": 94,
+    "retrieval_percent": 93.07,
+    "threshold": 0.85
+  },
+  "rows": [
+    {
+      "query_vi": "Môn vật lý đại cương 2 có thi giữa kỳ hay chỉ thi cuối kỳ?",
+      "vi_term": "vật lý đại cương 2",
+      "predicted_en_top1": "General Physics 2",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Thời khóa biểu của môn tiếng Anh 3 thường rơi vào ngày nào?",
+      "vi_term": "tiếng Anh 3",
+      "predicted_en_top1": "English 3",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Giáo trình chính của môn Python cho khoa học dữ liệu là gì?",
+      "vi_term": "Python cho khoa học dữ liệu",
+      "predicted_en_top1": "Python for Data Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn thực hành xác suất và thống kê có dự án cuối kỳ không?",
+      "vi_term": "thực hành xác suất và thống kê",
+      "predicted_en_top1": "Probability and Statistics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn triết học Mác-Lênin có giúp ích gì cho việc đi làm không?",
+      "vi_term": "triết học Mác-Lênin",
+      "predicted_en_top1": "Marxist-Leninist Philosophy",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn thực hành vi tích phân 1B có nhiều bài tập không?",
+      "vi_term": "thực hành vi tích phân 1B",
+      "predicted_en_top1": "Calculus 1B Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn khai phá dữ liệu có thi giữa kỳ hay chỉ thi cuối kỳ?",
+      "vi_term": "khai phá dữ liệu",
+      "predicted_en_top1": "Data Mining",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn Thực hành hóa học đại cương 2 có giúp ích gì cho việc đi làm không?",
+      "vi_term": "Thực hành hóa học đại cương 2",
+      "predicted_en_top1": "General Chemistry Laboratory 2",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Bài tập lớn của môn Quy hoạch tuyến tính thường là gì?",
+      "vi_term": "Quy hoạch tuyến tính",
+      "predicted_en_top1": "Linear Programming",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi nên học môn Thực hành đại số tuyến tính vào năm mấy thì hợp lý?",
+      "vi_term": "Thực hành đại số tuyến tính",
+      "predicted_en_top1": "Linear Algebra Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Ai thường dạy môn thực tập vật lý đại cương?",
+      "vi_term": "thực tập vật lý đại cương",
+      "predicted_en_top1": "General Physics 1",
+      "score": 0.836,
+      "retrieved": false
+    },
+    {
+      "query_vi": "Bài tập lớn của môn Xác suất và thống kê thường là gì?",
+      "vi_term": "Xác suất và thống kê",
+      "predicted_en_top1": "Probability and Statistics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn tin học đại cương có sử dụng Python không?",
+      "vi_term": "tin học đại cương",
+      "predicted_en_top1": "Introduction to Informatics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn nhập môn trí tuệ nhân tạo có sử dụng Python không?",
+      "vi_term": "nhập môn trí tuệ nhân tạo",
+      "predicted_en_top1": "Introduction to Artificial Intelligence",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn quy hoạch tuyến tính có yêu cầu thuyết trình nhóm không?",
+      "vi_term": "quy hoạch tuyến tính",
+      "predicted_en_top1": "Linear Programming",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Vật lý đại cương 2?",
+      "vi_term": "Vật lý đại cương 2",
+      "predicted_en_top1": "General Physics 2",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn thuật toán tối ưu có thi giữa kỳ hay chỉ thi cuối kỳ?",
+      "vi_term": "thuật toán tối ưu",
+      "predicted_en_top1": "Optimization Algorithms",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi nên học môn Kinh tế học đại cương vào năm mấy thì hợp lý?",
+      "vi_term": "Kinh tế học đại cương",
+      "predicted_en_top1": "General Economics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Bài tập lớn của môn nhập môn dữ liệu lớn thường là gì?",
+      "vi_term": "nhập môn dữ liệu lớn",
+      "predicted_en_top1": "Introduction to Big Data",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Có bao nhiêu tín chỉ trong môn Vật lý đại cương 1?",
+      "vi_term": "Vật lý đại cương 1",
+      "predicted_en_top1": "General Physics 1",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn thực hành đại số tuyến tính?",
+      "vi_term": "thực hành đại số tuyến tính",
+      "predicted_en_top1": "Linear Algebra Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Làm thế nào để qua được môn nhập môn hệ cơ sở dữ liệu dễ nhất?",
+      "vi_term": "nhập môn hệ cơ sở dữ liệu",
+      "predicted_en_top1": "Introduction to Database Systems",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Bài kiểm tra của môn kinh tế đại cương thường khó ở phần nào?",
+      "vi_term": "kinh tế đại cương",
+      "predicted_en_top1": "General Economics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Ai thường dạy môn Trí tuệ nhân tạo nâng cao?",
+      "vi_term": "Trí tuệ nhân tạo nâng cao",
+      "predicted_en_top1": "Advanced Artificial Intelligence",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn hóa học đại cương 1 có học online được không?",
+      "vi_term": "hóa học đại cương 1",
+      "predicted_en_top1": "General Chemistry 1",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Nội dung môn nhập môn công nghệ thông tin có bao gồm lập trình không?",
+      "vi_term": "nhập môn công nghệ thông tin",
+      "predicted_en_top1": "Introduction to Information Technology",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Nếu tôi thích AI thì môn nhập môn máy học có phù hợp không?",
+      "vi_term": "nhập môn máy học",
+      "predicted_en_top1": "Introduction to Machine Learning",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn máy học nâng cao có cần học trước môn nào không?",
+      "vi_term": "máy học nâng cao",
+      "predicted_en_top1": "Advanced Machine Learning",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn toán rời rạc có thi giữa kỳ hay chỉ thi cuối kỳ?",
+      "vi_term": "toán rời rạc",
+      "predicted_en_top1": "Discrete Mathematics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn seminar cho khoa học dữ liệu có cần học trước môn nào không?",
+      "vi_term": "seminar cho khoa học dữ liệu",
+      "predicted_en_top1": "Seminar on Data Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Đăng ký môn toán tổ hợp có cần điểm điều kiện gì không?",
+      "vi_term": "toán tổ hợp",
+      "predicted_en_top1": "Combinatorics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn toán rời rạc có nhiều bài tập không?",
+      "vi_term": "toán rời rạc",
+      "predicted_en_top1": "Discrete Mathematics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn kinh tế học đại cương có học online được không?",
+      "vi_term": "kinh tế học đại cương",
+      "predicted_en_top1": "General Economics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn con người và môi trường có yêu cầu thuyết trình nhóm không?",
+      "vi_term": "con người và môi trường",
+      "predicted_en_top1": "Human and Environment",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Nếu tôi thích AI thì môn nhập môn trí tuệ nhân tạo có phù hợp không?",
+      "vi_term": "nhập môn trí tuệ nhân tạo",
+      "predicted_en_top1": "Introduction to Artificial Intelligence",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn quy hoạch tuyến tính có thi giữa kỳ hay chỉ thi cuối kỳ?",
+      "vi_term": "quy hoạch tuyến tính",
+      "predicted_en_top1": "Linear Programming",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi muốn biết cách tính điểm của môn Sinh học đại cương 2.",
+      "vi_term": "Sinh học đại cương 2",
+      "predicted_en_top1": "General Biology I",
+      "score": 0.8539,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn thực hành toán rời rạc có cần học trước môn nào không?",
+      "vi_term": "thực hành toán rời rạc",
+      "predicted_en_top1": "Discrete Mathematics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Xác suất và thống kê?",
+      "vi_term": "Xác suất và thống kê",
+      "predicted_en_top1": "Probability and Statistics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Có bao nhiêu tín chỉ trong môn Sinh học đại cương 2?",
+      "vi_term": "Sinh học đại cương 2",
+      "predicted_en_top1": "General Biology I",
+      "score": 0.8539,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn cấu trúc dữ liệu và giải thuật có học phần thực hành không?",
+      "vi_term": "cấu trúc dữ liệu và giải thuật",
+      "predicted_en_top1": "Data Structures and Algorithms",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Ai thường dạy môn khai thác dữ liệu?",
+      "vi_term": "khai thác dữ liệu",
+      "predicted_en_top1": "Data Mining",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Giáo trình chính của môn Lịch sử Đảng Cộng sản Việt Nam là gì?",
+      "vi_term": "Lịch sử Đảng Cộng sản Việt Nam",
+      "predicted_en_top1": "History of Vietnamese Communist Party",
+      "score": 0.9311,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Kỹ năng làm việc nhóm và học tập?",
+      "vi_term": "Kỹ năng làm việc nhóm và học tập",
+      "predicted_en_top1": "Group-working and Learning Skills",
+      "score": 0.6736,
+      "retrieved": false
+    },
+    {
+      "query_vi": "Ai thường dạy môn Sinh học đại cương 1?",
+      "vi_term": "Sinh học đại cương 1",
+      "predicted_en_top1": "General Biology I",
+      "score": 0.8539,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Bài kiểm tra của môn Thực hành xác suất và thống kê thường khó ở phần nào?",
+      "vi_term": "Thực hành xác suất và thống kê",
+      "predicted_en_top1": "Probability and Statistics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi nên học môn thực hành đại số tuyến tính vào năm mấy thì hợp lý?",
+      "vi_term": "thực hành đại số tuyến tính",
+      "predicted_en_top1": "Linear Algebra Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Có bao nhiêu tín chỉ trong môn Thực hành xác suất và thống kê?",
+      "vi_term": "Thực hành xác suất và thống kê",
+      "predicted_en_top1": "Probability and Statistics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Nhập môn hệ cơ sở dữ liệu?",
+      "vi_term": "Nhập môn hệ cơ sở dữ liệu",
+      "predicted_en_top1": "Introduction to Database Systems",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn tiếng Anh 2 có yêu cầu thuyết trình nhóm không?",
+      "vi_term": "tiếng Anh 2",
+      "predicted_en_top1": "English 2",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Nếu tôi thích AI thì môn Tổ hợp có phù hợp không?",
+      "vi_term": "AI",
+      "predicted_en_top1": "Introduction to Artificial Intelligence",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Nếu tôi thích AI thì môn Tổ hợp có phù hợp không?",
+      "vi_term": "Tổ hợp",
+      "predicted_en_top1": "Combinatorics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn thực hành phần mềm tính toán có sử dụng Python không?",
+      "vi_term": "thực hành phần mềm tính toán",
+      "predicted_en_top1": "Computational Software Laboratory",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi muốn biết cách tính điểm của môn Môi trường đại cương.",
+      "vi_term": "Môi trường đại cương",
+      "predicted_en_top1": "Introduction to Data Science",
+      "score": 0.8185,
+      "retrieved": false
+    },
+    {
+      "query_vi": "Nội dung môn Khai phá dữ liệu có bao gồm lập trình không?",
+      "vi_term": "Khai phá dữ liệu",
+      "predicted_en_top1": "Data Mining",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Bài kiểm tra của môn Thực hành toán rời rạc thường khó ở phần nào?",
+      "vi_term": "Thực hành toán rời rạc",
+      "predicted_en_top1": "Discrete Mathematics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn thực hành đại số tuyến tính có cần học trước môn nào không?",
+      "vi_term": "thực hành đại số tuyến tính",
+      "predicted_en_top1": "Linear Algebra Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi muốn đăng ký môn Lập trình song song cho kỳ học tới.",
+      "vi_term": "Lập trình song song",
+      "predicted_en_top1": "Parallel Programming",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi nên học môn nhập môn dữ liệu lớn vào năm mấy thì hợp lý?",
+      "vi_term": "nhập môn dữ liệu lớn",
+      "predicted_en_top1": "Introduction to Big Data",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Nhập môn dữ liệu lớn?",
+      "vi_term": "Nhập môn dữ liệu lớn",
+      "predicted_en_top1": "Introduction to Big Data",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Làm thế nào để qua được môn chủ nghĩa xã hội khoa học dễ nhất?",
+      "vi_term": "chủ nghĩa xã hội khoa học",
+      "predicted_en_top1": "Scientific Socialism",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Lịch sử Đảng Cộng sản Việt Nam?",
+      "vi_term": "Lịch sử Đảng Cộng sản Việt Nam",
+      "predicted_en_top1": "History of Vietnamese Communist Party",
+      "score": 0.9311,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn nhập môn công nghệ thông tin có học online được không?",
+      "vi_term": "nhập môn công nghệ thông tin",
+      "predicted_en_top1": "Introduction to Information Technology",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Nội dung môn xử lý số liệu thống kê có bao gồm lập trình không?",
+      "vi_term": "xử lý số liệu thống kê",
+      "predicted_en_top1": "Analysis of Statistical Data",
+      "score": 0.8635,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn vi tích phân 2B có học online được không?",
+      "vi_term": "vi tích phân 2B",
+      "predicted_en_top1": "Calculus 2B",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Thực tập sinh học đại cương 1?",
+      "vi_term": "Thực tập sinh học đại cương 1",
+      "predicted_en_top1": "Lab work on General Biology 1",
+      "score": 0.8657,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi muốn biết cách tính điểm của môn Nhập môn khoa học dữ liệu.",
+      "vi_term": "Nhập môn khoa học dữ liệu",
+      "predicted_en_top1": "Introduction to Data Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Bài kiểm tra của môn tiếng Anh 1 thường khó ở phần nào?",
+      "vi_term": "tiếng Anh 1",
+      "predicted_en_top1": "English 1",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Ai thường dạy môn Thực hành toán rời rạc?",
+      "vi_term": "Thực hành toán rời rạc",
+      "predicted_en_top1": "Discrete Mathematics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn giải tích 1B có cần học trước môn nào không?",
+      "vi_term": "giải tích 1B",
+      "predicted_en_top1": "Calculus 1B",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn Nhập môn trí tuệ nhân tạo có thi giữa kỳ hay chỉ thi cuối kỳ?",
+      "vi_term": "Nhập môn trí tuệ nhân tạo",
+      "predicted_en_top1": "Introduction to Artificial Intelligence",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn Khoa học trái đất có yêu cầu thuyết trình nhóm không?",
+      "vi_term": "Khoa học trái đất",
+      "predicted_en_top1": "Earth Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Nội dung môn trực quan hóa dữ liệu có bao gồm lập trình không?",
+      "vi_term": "trực quan hóa dữ liệu",
+      "predicted_en_top1": "Data Visualization",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Hệ thống tư vấn có yêu cầu thuyết trình nhóm không?",
+      "vi_term": "Hệ thống tư vấn",
+      "predicted_en_top1": "Introduction to Database Systems",
+      "score": 0.7623,
+      "retrieved": false
+    },
+    {
+      "query_vi": "Có bao nhiêu tín chỉ trong môn Lập trình nâng cao?",
+      "vi_term": "Lập trình nâng cao",
+      "predicted_en_top1": "Advanced Programming",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn luật đại cương có giúp ích gì cho việc đi làm không?",
+      "vi_term": "luật đại cương",
+      "predicted_en_top1": "General Law",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn tiếng Anh 2 có học online được không?",
+      "vi_term": "tiếng Anh 2",
+      "predicted_en_top1": "English 2",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Làm thế nào để qua được môn pháp luật đại cương dễ nhất?",
+      "vi_term": "pháp luật đại cương",
+      "predicted_en_top1": "Introduction to Informatics",
+      "score": 0.6771,
+      "retrieved": false
+    },
+    {
+      "query_vi": "Đăng ký môn nhập môn lập trình có cần điểm điều kiện gì không?",
+      "vi_term": "nhập môn lập trình",
+      "predicted_en_top1": "Fundamentals of Computer Programming",
+      "score": 0.8196,
+      "retrieved": false
+    },
+    {
+      "query_vi": "Môn Nhập môn khoa học dữ liệu có nhiều bài tập không?",
+      "vi_term": "Nhập môn khoa học dữ liệu",
+      "predicted_en_top1": "Introduction to Data Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Bài kiểm tra của môn Luật đại cương thường khó ở phần nào?",
+      "vi_term": "Luật đại cương",
+      "predicted_en_top1": "General Law",
+      "score": 0.6804,
+      "retrieved": false
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Nhập môn hệ cơ sở dữ liệu?",
+      "vi_term": "Nhập môn hệ cơ sở dữ liệu",
+      "predicted_en_top1": "Introduction to Database Systems",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Ai thường dạy nhập môn khoa học dữ liệu?",
+      "vi_term": "nhập môn khoa học dữ liệu",
+      "predicted_en_top1": "Introduction to Data Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn học sâu cho khoa học dữ liệu có thi giữa kỳ hay chỉ thi cuối kỳ?",
+      "vi_term": "học sâu cho khoa học dữ liệu",
+      "predicted_en_top1": "Deep Learning for Data Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Điểm danh trong môn Nghiên cứu tác nghiệp có bắt buộc không?",
+      "vi_term": "Nghiên cứu tác nghiệp",
+      "predicted_en_top1": "Operations Research",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn Tiếng Anh 4 có cần học trước môn nào không?",
+      "vi_term": "Tiếng Anh 4",
+      "predicted_en_top1": "English 4",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Đăng ký môn thực hành toán rời rạc có cần điểm điều kiện gì không?",
+      "vi_term": "thực hành toán rời rạc",
+      "predicted_en_top1": "Discrete Mathematics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn khoa học trái đất có yêu cầu thuyết trình nhóm không?",
+      "vi_term": "khoa học trái đất",
+      "predicted_en_top1": "Earth Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn tiếng Anh 3 có nhiều bài tập không?",
+      "vi_term": "tiếng Anh 3",
+      "predicted_en_top1": "English 3",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Tư tưởng Hồ Chí Minh?",
+      "vi_term": "Tư tưởng Hồ Chí Minh",
+      "predicted_en_top1": "Ho Chi Minh’s Ideology",
+      "score": 0.9886,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Thời khóa biểu của môn Cấu trúc dữ liệu và giải thuật thường rơi vào ngày nào?",
+      "vi_term": "Cấu trúc dữ liệu và giải thuật",
+      "predicted_en_top1": "Data Structures and Algorithms",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn Tin học đại cương?",
+      "vi_term": "Tin học đại cương",
+      "predicted_en_top1": "Introduction to Informatics",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn xử lý số liệu thống kê có sử dụng Python không?",
+      "vi_term": "xử lý số liệu thống kê",
+      "predicted_en_top1": "Analysis of Statistical Data",
+      "score": 0.8635,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Sinh viên thường phàn nàn điều gì về môn giải tích 2B?",
+      "vi_term": "giải tích 2B",
+      "predicted_en_top1": "Calculus 2B",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Thời khóa biểu của môn nhập môn trí tuệ nhân tạo thường rơi vào ngày nào?",
+      "vi_term": "nhập môn trí tuệ nhân tạo",
+      "predicted_en_top1": "Introduction to Artificial Intelligence",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi nên học môn thực hành toán rời rạc vào năm mấy thì hợp lý?",
+      "vi_term": "thực hành toán rời rạc",
+      "predicted_en_top1": "Discrete Mathematics Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Có bao nhiêu tín chỉ trong môn trực quan hóa dữ liệu?",
+      "vi_term": "trực quan hóa dữ liệu",
+      "predicted_en_top1": "Data Visualization",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn thực hành giải tích 1B có yêu cầu thuyết trình nhóm không?",
+      "vi_term": "thực hành giải tích 1B",
+      "predicted_en_top1": "Calculus 1B Practice",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn nhập môn dữ liệu lớn có học phần thực hành không?",
+      "vi_term": "nhập môn dữ liệu lớn",
+      "predicted_en_top1": "Introduction to Big Data",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Tôi muốn đăng ký môn Python cho khoa học dữ liệu cho kỳ học tới.",
+      "vi_term": "Python cho khoa học dữ liệu",
+      "predicted_en_top1": "Python for Data Science",
+      "score": 1.0,
+      "retrieved": true
+    },
+    {
+      "query_vi": "Môn chủ nghĩa xã hội khoa học có học phần thực hành không?",
+      "vi_term": "chủ nghĩa xã hội khoa học",
+      "predicted_en_top1": "Scientific Socialism",
+      "score": 1.0,
+      "retrieved": true
+    }
+  ]
+}
