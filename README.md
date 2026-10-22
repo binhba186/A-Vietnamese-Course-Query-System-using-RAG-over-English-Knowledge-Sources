@@ -131,53 +131,53 @@ Theo cấu hình mục tiêu của đặc tả, các trọng số được đặ
 
 | Thành phần | Ký hiệu | Trọng số |
 |---|---:|---:|
-| FTS / Token Overlap | \(S_{FTS}\) | \(W_{FTS}=0.35\) |
-| Fuzzy String Matching | \(S_{Fuzzy}\) | \(W_{Fuzzy}=0.25\) |
-| Semantic Embedding Similarity | \(S_{Sem}\) | \(W_{Sem}=0.40\) |
+| FTS / Token Overlap | $S_{FTS}$ | $W_{FTS}=0.35$ |
+| Fuzzy String Matching | $S_{Fuzzy}$ | $W_{Fuzzy}=0.25$ |
+| Semantic Embedding Similarity | $S_{Sem}$ | $W_{Sem}=0.40$ |
 
 #### Weighted Hybrid Score
 
 Với các thành phần điểm đã được chuẩn hóa về cùng miền giá trị, điểm kết hợp được định nghĩa:
 
-\[
+$$
 S_{\text{hybrid}} =
 W_{FTS}S_{FTS}
 + W_{Fuzzy}S_{Fuzzy}
 + W_{Sem}S_{Sem}
-\]
+$$
 
 Thay các trọng số theo cấu hình mục tiêu:
 
-\[
+$$
 S_{\text{hybrid}} =
 0.35S_{FTS}
 + 0.25S_{Fuzzy}
 + 0.40S_{Sem}
-\]
+$$
 
 Trong đó:
 
-- \(S_{FTS}\): điểm truy xuất dựa trên token overlap hoặc kết quả FTS đã chuẩn hóa.
-- \(S_{Fuzzy}\): điểm tương đồng chuỗi đã chuẩn hóa.
-- \(S_{Sem}\): điểm tương đồng vector ngữ nghĩa đã được chuyển về thang đo tương thích với các thành phần còn lại.
-- \(W_{FTS}\), \(W_{Fuzzy}\), \(W_{Sem}\): trọng số của từng tín hiệu.
+- $S_{FTS}$: điểm truy xuất dựa trên token overlap hoặc kết quả FTS đã chuẩn hóa.
+- $S_{Fuzzy}$: điểm tương đồng chuỗi đã chuẩn hóa.
+- $S_{Sem}$: điểm tương đồng vector ngữ nghĩa đã được chuyển về thang đo tương thích với các thành phần còn lại.
+- $W_{FTS}$, $W_{Fuzzy}$, $W_{Sem}$: trọng số của từng tín hiệu.
 
-**Lưu ý triển khai:** công thức có ý nghĩa so sánh khi các thành phần điểm nằm trên thang đo tương thích, thường là \([0,1]\). Nếu FTS hoặc fuzzy matcher trả về thang điểm khác, cần chuẩn hóa trước khi cộng trọng số. Không nên mặc định cosine similarity luôn nằm trong \([0,1]\) nếu chưa kiểm tra mô hình embedding và phép biến đổi được dùng.
+**Lưu ý triển khai:** công thức có ý nghĩa so sánh khi các thành phần điểm nằm trên thang đo tương thích, thường là $[0,1]$. Nếu FTS hoặc fuzzy matcher trả về thang điểm khác, cần chuẩn hóa trước khi cộng trọng số. Không nên mặc định cosine similarity luôn nằm trong $[0,1]$ nếu chưa kiểm tra mô hình embedding và phép biến đổi được dùng.
 
 #### Exact-match Bonus
 
 Một kết quả trùng khớp chính xác với tên học phần chuẩn có thể được ưu tiên bằng một bonus. Một dạng công thức tổng quát có thể dùng là:
 
-\[
+$$
 S_{\text{final}} =
 \min\left(1,\ S_{\text{hybrid}} + \lambda I_{\text{exact}}\right)
-\]
+$$
 
 Trong đó:
 
-- \(I_{\text{exact}}=1\) nếu điều kiện exact match được thỏa mãn; ngược lại \(I_{\text{exact}}=0\).
-- \(\lambda\) là hệ số bonus được cấu hình trong chương trình.
-- Hàm \(\min(1,\cdot)\) giới hạn điểm cuối tối đa bằng \(1\).
+- $I_{\text{exact}}=1$ nếu điều kiện exact match được thỏa mãn; ngược lại $I_{\text{exact}}=0$.
+- $\lambda$ là hệ số bonus được cấu hình trong chương trình.
+- Hàm $\min(1,\cdot)$ giới hạn điểm cuối tối đa bằng $1$.
 
 Đây là **định nghĩa tham chiếu** để mô tả logic bonus, không khẳng định mã nguồn hiện tại dùng đúng công thức này. Khi triển khai, cần xác định rõ exact match áp dụng cho chuỗi gốc, chuỗi đã chuẩn hóa, tên chuẩn trong catalog hay mã học phần. Nếu bonus được sử dụng, cần kiểm tra nó không khiến một ứng viên sai vượt ngưỡng chỉ vì chuẩn hóa chuỗi quá rộng.
 
@@ -185,35 +185,35 @@ Trong đó:
 
 Sau khi tính điểm cho các ứng viên, hệ thống xếp hạng theo điểm cuối và xem xét ứng viên đứng đầu. Theo cấu hình mục tiêu, ngưỡng chấp nhận là:
 
-\[
+$$
 \tau = 0.85
-\]
+$$
 
 Quy tắc quyết định:
 
-\[
+$$
 \text{retrieved} =
 \begin{cases}
 \text{true}, & S_{\text{final}} \geq 0.85 \\
 \text{false}, & S_{\text{final}} < 0.85
 \end{cases}
-\]
+$$
 
 - **Accepted mapping:** điểm đạt hoặc vượt ngưỡng; hệ thống có thể trả về tên học phần chuẩn.
 - **Threshold rejection:** không có ứng viên đạt ngưỡng; hệ thống nên báo chưa đủ tin cậy thay vì ép chọn top-1.
 - **Out-of-catalog:** thuật ngữ có thể hợp lệ nhưng không tồn tại trong danh mục hiện tại. Đây là vấn đề khác với lỗi chính tả hoặc điểm số thấp và nên được thống kê riêng.
 
-Ngưỡng \(0.85\) là tham số vận hành cần được hiệu chỉnh trên tập validation có nhãn. Ngưỡng cao thường giúp giảm các ánh xạ sai nhưng có thể làm tăng tỷ lệ từ chối; ngưỡng thấp có thể tăng coverage nhưng chấp nhận nhiều kết quả không chính xác hơn.
+Ngưỡng $0.85$ là tham số vận hành cần được hiệu chỉnh trên tập validation có nhãn. Ngưỡng cao thường giúp giảm các ánh xạ sai nhưng có thể làm tăng tỷ lệ từ chối; ngưỡng thấp có thể tăng coverage nhưng chấp nhận nhiều kết quả không chính xác hơn.
 
 ### 2.6. Từ ánh xạ học phần đến RAG
 
 Sau khi tên học phần được ánh xạ, hệ thống sử dụng thực thể đó làm tín hiệu để truy xuất đề cương hoặc tài liệu liên quan. Trong RAG cơ bản, retriever lấy các đoạn văn phù hợp, sau đó generator tạo câu trả lời dựa trên câu hỏi và ngữ cảnh truy hồi. Về mặt khái niệm:
 
-\[
+$$
 p(y \mid x) = \sum_{z \in Z} p(y \mid x,z)\,p(z \mid x)
-\]
+$$
 
-Trong đó \(x\) là truy vấn, \(z\) là chứng cứ truy hồi và \(y\) là câu trả lời được sinh. Chất lượng câu trả lời phụ thuộc đáng kể vào mức độ liên quan và độ đầy đủ của chứng cứ truy hồi.
+Trong đó $x$ là truy vấn, $z$ là chứng cứ truy hồi và $y$ là câu trả lời được sinh. Chất lượng câu trả lời phụ thuộc đáng kể vào mức độ liên quan và độ đầy đủ của chứng cứ truy hồi.
 
 Hướng mở rộng HippoRAG-2 bổ sung cấu trúc đồ thị để biểu diễn liên hệ giữa các thực thể và tài liệu. Điều này đặc biệt có ý nghĩa với câu hỏi cần tổng hợp thông tin từ nhiều môn học hoặc lần theo quan hệ giữa các khái niệm. Đồ thị không thay thế việc kiểm chứng bằng văn bản nguồn; nó bổ sung một cơ chế tổ chức và truy hồi quan hệ.
 
@@ -482,27 +482,27 @@ python mapping_eval.py \
 
 ### 5.2. Retrieval Rate
 
-Với \(N\) truy vấn đánh giá và \(N_{\text{accepted}}\) truy vấn được chấp nhận theo ngưỡng:
+Với $N$ truy vấn đánh giá và $N_{\text{accepted}}$ truy vấn được chấp nhận theo ngưỡng:
 
-\[
+$$
 \text{Retrieval Rate} =
 \frac{N_{\text{accepted}}}{N}
-\]
+$$
 
 Metric này đo tỷ lệ truy vấn được hệ thống chấp nhận ánh xạ. Nó **không đo trực tiếp độ chính xác**: hệ thống có thể có Retrieval Rate cao nhưng chấp nhận nhiều ánh xạ sai.
 
 ### 5.3. Top-1 Accuracy @ Threshold
 
-Đặt \(A_{\tau}\) là tập truy vấn được chấp nhận tại ngưỡng \(\tau\). Nếu đánh giá độ chính xác trong số các kết quả được chấp nhận:
+Đặt $A_{\tau}$ là tập truy vấn được chấp nhận tại ngưỡng $\tau$. Nếu đánh giá độ chính xác trong số các kết quả được chấp nhận:
 
-\[
+$$
 \text{Top-1 Accuracy @ Threshold} =
 \frac{\sum_{i \in A_{\tau}}
 \mathbb{1}[\hat{c}_i = c_i^*]}
 {|A_{\tau}|}
-\]
+$$
 
-Trong đó \(\hat{c}_i\) là học phần dự đoán, \(c_i^*\) là nhãn tham chiếu và \(\mathbb{1}[\cdot]\) là hàm chỉ báo. Nếu không có truy vấn nào được chấp nhận, metric này không xác định; nên báo `null` thay vì gán bằng 0 một cách tùy tiện.
+Trong đó $\hat{c}_i$ là học phần dự đoán, $c_i^*$ là nhãn tham chiếu và $\mathbb{1}[\cdot]$ là hàm chỉ báo. Nếu không có truy vấn nào được chấp nhận, metric này không xác định; nên báo `null` thay vì gán bằng 0 một cách tùy tiện.
 
 Để đánh giá đầy đủ hơn, nên báo thêm:
 
@@ -603,7 +603,7 @@ FTS, fuzzy matching và cosine similarity có phân phối điểm khác nhau. N
 
 **5. Threshold phụ thuộc dữ liệu**
 
-Ngưỡng \(0.85\) không phải hằng số phổ quát. Hiệu quả của nó phụ thuộc catalog, cách chuẩn hóa, embedding model và phân phối truy vấn. Cần hiệu chỉnh trên validation và báo cáo cả accuracy lẫn coverage.
+Ngưỡng $0.85$ không phải hằng số phổ quát. Hiệu quả của nó phụ thuộc catalog, cách chuẩn hóa, embedding model và phân phối truy vấn. Cần hiệu chỉnh trên validation và báo cáo cả accuracy lẫn coverage.
 
 **6. Lỗi truy hồi có thể lan truyền sang câu trả lời**
 
