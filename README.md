@@ -140,19 +140,13 @@ Theo cấu hình mục tiêu của đặc tả, các trọng số được đặ
 Với các thành phần điểm đã được chuẩn hóa về cùng miền giá trị, điểm kết hợp được định nghĩa:
 
 $$
-S_{\text{hybrid}} =
-W_{FTS}S_{FTS}
-+ W_{Fuzzy}S_{Fuzzy}
-+ W_{Sem}S_{Sem}
+S_{\text{hybrid}} = W_{FTS}S_{FTS} + W_{Fuzzy}S_{Fuzzy} + W_{Sem}S_{Sem}
 $$
 
 Thay các trọng số theo cấu hình mục tiêu:
 
 $$
-S_{\text{hybrid}} =
-0.35S_{FTS}
-+ 0.25S_{Fuzzy}
-+ 0.40S_{Sem}
+S_{\text{hybrid}} = 0.35S_{FTS} + 0.25S_{Fuzzy} + 0.40S_{Sem}
 $$
 
 Trong đó:
