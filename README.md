@@ -507,21 +507,8 @@ Trong đó $\hat{c}_i$ là học phần dự đoán, $c_i^*$ là nhãn tham chi�
 - **Latency:** thời gian xử lý trung bình và các phân vị như p50/p95.
 - **API usage / cost:** số lần gọi và chi phí ước tính nếu có thể đo được.
 
-### 5.4. Summary Table
 
-Điền số liệu sau khi chạy benchmark thực tế; không nên công bố các ô chưa đo như kết quả dự án.
-
-| Metric | Giá trị | Ghi chú |
-|---|---:|---|
-| Number of test queries | — | Số truy vấn có nhãn hợp lệ. |
-| Retrieval Rate | — | Tỷ lệ truy vấn được chấp nhận theo ngưỡng. |
-| Top-1 Accuracy @ Threshold | — | Độ chính xác trên các kết quả được chấp nhận; ghi rõ mẫu số. |
-| Precision among accepted mappings | — | Tỷ lệ mapping được chấp nhận và đúng. |
-| Recall@k | — | Đánh giá retriever trên tài liệu liên quan. |
-| Mean / Median latency | — | Cần ghi rõ có tính thời gian gọi API hay không. |
-| Rejected queries | — | Số truy vấn bị từ chối do điểm dưới ngưỡng. |
-
-### 5.5. Error Analysis
+### 5.4. Error Analysis
 
 | Nhóm lỗi | Mô tả | Hướng xử lý |
 |---|---|---|
@@ -533,7 +520,7 @@ Trong đó $\hat{c}_i$ là học phần dự đoán, $c_i^*$ là nhãn tham chi�
 | `retrieval_miss` | Ánh xạ đúng nhưng tài liệu cần thiết không xuất hiện trong top-k. | Cải thiện indexing, chunking, metadata filtering và retriever. |
 | `generation_error` | Tài liệu đã truy hồi nhưng câu trả lời sai hoặc không bám nguồn. | Tăng chất lượng context, yêu cầu trích dẫn chứng cứ và đánh giá faithfulness. |
 
-### 5.6. Benchmark protocol khuyến nghị
+### 5.5. Benchmark protocol khuyến nghị
 
 1. Xây dựng tập truy vấn có nhãn gồm tên đầy đủ, viết tắt, biến thể diễn đạt, lỗi chính tả và câu hỏi không thuộc catalog.
 2. Tách tập hiệu chỉnh và tập kiểm thử. Chỉ dùng validation để lựa chọn trọng số hoặc ngưỡng.
@@ -659,5 +646,6 @@ Không đưa API key, thông tin cá nhân hoặc tài liệu không được ph
 4. Tài liệu seminar của dự án: *Xây dựng hệ thống gợi ý môn học bằng tiếng Việt*, Khoa Toán – Tin học, Trường Đại học Khoa học Tự nhiên, ĐHQG-HCM (2026).
 
 ## Thành viên nhóm
-- Trương Bình Ba (Truong Binh Ba)
-- Lê Nguyễn Thành Tân (Le Nguyen Thanh Tan)
+- Trương Bình Ba 
+- Lê Nguyễn Thành Tân
+  
